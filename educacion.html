@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no"> <!-- Indica que el width se adapte al dispotivo-->
+	<meta name="autor" content="Yeltsing tovar"> <!-- Nombre del autor -->
+	<meta name="keywords" content="sistesis, curriculum, viate, experiencia, hoja, vida">
+	<meta name="description" content="sintesis curricular Yeltsing Tovar">
+	<!-- Robots, copyright, etc -->
+	<title>Resumen Curricular</title>
+	<style>
+		th,td { text-align:center !important;}
+		label {padding: 10px 0 10px 0 !important;}
+	</style>
+</head>
+<body>
+	<header style="width:60%">
+		<img src="img/logo.svg" width="180px" >
+	</header>
+	<section id="contenido" style="width:60%">
+		<h1>Resumen Curricular</h1>
+		<ul>
+			<li><b>Nombres: </b>Yeltsing Jhair</li>
+			<li><b>Apellidos: </b> Tovar Rivas</li>
+			<li><b>Fecha de nacimiento: </b>07/Mayo/1991</li>
+			<li><b>Lugar de nacimiento: </b>Caracas, Venezuela</li>
+			<li><b>Edad: </b>26</li>
+		</ul>
+
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencias.html">Experiencias</a></li>
+		</ul>
+		<hr/>
+		<h2>Educación</h2>
+		<article>
+			<table border="1" cellspacing="3" cellpadding="3">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Especialidad</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2010</td>
+						<td>Tecnico Medio Agropecuario, Mensión Producción Pecuaria</td>
+						<td>ETA Carrizal</td>
+						<td>Carrizal Los Teques, Edo. Miranda, Venezuela</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2012</td>
+						<td>TSU Informática</td>
+						<td>IUT Dr. Federico Rivero Palacio</td>
+						<td>Distrito Capital, Caracas, Venezuela</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td>Ingeniero en Informática</td>
+						<td>IUT Dr. Federico Rivero Palacio</td>
+						<td>Distrito Capital, Caracas, Venezuela</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td>Inteligencia Artificial y Mineria de datos</td>
+						<td>IUT Dr. Federico Rivero Palacio</td>
+						<td>Distrito Capital, Caracas, Venezuela</td>
+						<td>Si</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+		<hr/>
+		<article>
+			<h2>Agregar Estudios</h2>
+			<form name="agregar-estudios">
+				<lable for="anio"><b>Año: </b>
+					<select name="anio" id="anio" required>
+						<option value="">Seleccione una opción</option>
+						<option value="2000">2000</option>
+						<option value="2001">2001</option>
+						<option value="2002">2002</option>
+						<option value="2003">2003</option>
+						<option value="2004">2004</option>
+						<option value="2005">2005</option>
+						<option value="2006">2006</option>
+						<option value="2007">2007</option>
+						<option value="2008">2008</option>
+						<option value="2009">2009</option>
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+					</select>
+				</lable>
+				<br>
+				<br>
+				<lable for="especialidad"><b>Especialidad: </b>
+					<input type="text" required name="especialidad" id="especialidad">
+				</lable>
+				<br>
+				<br>
+				<lable for="institucion"><b>Institución: </b>
+					<input type="text" required name="institucion" id="institucion">
+				</lable>
+				<br>
+				<br>
+				<lable for="lugar"><b>Lugar: </b>
+					<textarea required name="lugar" id="lugar"></textarea>
+				</lable>
+				<br>
+				<br>
+				<label for="culmino"> <b>¿Cuminó?</b>
+					<input type="radio" name="culmino" value="si"> Si
+					<input type="radio" name="culmino" value="no"> No
+				</label>
+				<br>
+				<br>
+				<input type="submit" name="agregar" value="Agregar" id="agregar">
+			</form>
+		</article>
+		
+	<hr/>
+	</section>
+	<footer style="width:60%">
+		@Derechos Reservados.
+		<ul>
+			<li><b>Email: </b><a href="mailto:yeltsing.tovar@hotmail.com" target="_blank"> yeltsing.tovar@hotmail.com</a></li>
+			<li><b>Teléfono: </b>+58 (414) 269 6613</li>
+			<li><b>Facebook: </b><a href="https://www.facebook.com/yeltsing.tovar" title="Facebook" target="_blank">@yeltsing.tovar</a></li>
+			<li><b>Twitter: </b><a href="https://twitter.com/JhairSk" title="Twitter" target="_blank">@JhairSK</a></li>
+			<li><b>Intagram: </b><a href="https://www.instagram.com/tyeltsing/" title="Intagram" target="_blank">@tyeltsing</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
